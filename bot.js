@@ -5,15 +5,6 @@ const fs = require('fs');
 const commando = require('discord.js-commando');
 const bot = new commando.Client();
 
-Client.on('ready', ()=>{
-console.log("Online")
-})
-
-Client.on('message', (message)=>{
- if(!message.content.startsWith(prefix)) return;
-
-if(message.content.startsWith(prefix + "Hi")){
-message.channel.send("Hello.");
 
 
 
